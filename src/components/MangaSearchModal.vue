@@ -16,7 +16,7 @@ import {
   XCircleIcon
 } from '@heroicons/vue/20/solid'
 
-import * as AL from '../types/anilist'
+import * as AL from '../types/mangaAnilist'
 import { TachiyomiEntry, TachiyomiStatus } from '../types/tachiyomi'
 import useSettings from '../composables/useSettings'
 

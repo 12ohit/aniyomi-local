@@ -1,5 +1,5 @@
 {
-  "name": "tachi-local",
+  "name": "aniyomi-local",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",

@@ -1,4 +1,4 @@
-# Tachiyomi Local Source JSON Generator
+# Aniyomi Local Source JSON Generator
 
 A tool that helps you to easily create the JSON file with metadata.
 

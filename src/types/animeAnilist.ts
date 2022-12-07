@@ -10,10 +10,9 @@ export interface AnilistPaginated<KeyValue extends string, Type> {
 
 export type AnilistPaginatedMedia = AnilistResponse<AnilistPaginated<'media', AnilistMedia>>
 
-export type AnilistStatus = 'FINISHED' | 'RELEASING' | 
-  'NOT_YET_RELEASED' | 'CANCELLED' | 'HIATUS'
+export type AnilistStatus = 'RELEASING' | 'FINISHED' | 'NOT_YET_RELEASED' | 'CANCELLED'
 
-export type AnilistFormat = 'MANGA' | 'ONE_SHOT'
+export type AnilistFormat = 'TV' | 'MOVIE' | 'TV_SHORT' | 'SPECIAL' | 'OVA' | 'ONA' | 'MUSIC'
 
 export interface AnilistMedia {
   coverImage: {
@@ -23,7 +22,7 @@ export interface AnilistMedia {
   format: AnilistFormat;
   genres: string[];
   id: number;
-  staff: AnilistStaff;
+  studios: AnilistStudios;
   status: AnilistStatus;
   title: {
     english?: string;
@@ -31,18 +30,15 @@ export interface AnilistMedia {
   };
 }
 
-export interface AnilistStaff {
-  edges: AnilistPersonRole[];
+export interface AnilistStudios {
+  edges: AnilistStudio[];
 }
 
-export interface AnilistPersonRole {
-  node: AnilistPerson;
-  role: string;
+export interface AnilistStudio {
+  node: AnilistStudioName;
 }
 
-export interface AnilistPerson {
+export interface AnilistStudioName {
   id: number;
-  name: {
-    full: string;
-  };
+  name: string;
 }

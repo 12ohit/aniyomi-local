@@ -8,7 +8,7 @@ import {
   MagnifyingGlassIcon
 } from '@heroicons/vue/20/solid'
 import SaveFileModal from './SaveFileModal.vue'
-import SearchModal from './SearchModal.vue'
+import SearchModal from './MangaSearchModal.vue'
 import SettingsModal from './SettingsModal.vue'
 
 import type { TachiyomiEntry } from '../types/tachiyomi'
