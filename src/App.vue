@@ -24,7 +24,7 @@ import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
           <button
             :class="[
               'grow sm:grow-0 sm:w-36 ml-6 justify-center',
-              {'shadow button-primary': selected,}
+              { 'shadow button-primary': selected, 'button': !selected }
             ]"
           >
             Anime
@@ -34,7 +34,7 @@ import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
           <button
             :class="[
               'grow sm:grow-0 sm:w-36 mr-6 justify-center',
-              {'shadow button-primary': selected,}
+              { 'shadow button-primary': selected, 'button': !selected }
             ]"
           >
             Manga
