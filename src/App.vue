@@ -50,7 +50,7 @@ import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
     <footer class="my-10 px-4">
       <div class="text-sm text-gray-600 text-center [&_a]:text-primary-600 [&_a]:underline">
         <p>
-          Created by <a href="https://github.com/alessandrojean" target="_blank">Alessandro Jean</a> and eidited by <a href="https://github.com/12ohit" target="_blank">Rohit Mane</a>.<br class="sm:hidden" />
+          Created by <a href="https://github.com/alessandrojean" target="_blank">Alessandro Jean</a> and edited by <a href="https://github.com/12ohit" target="_blank">Rohit Mane</a>.<br class="sm:hidden" />
           Source code available on <a href="https://github.com/12ohit/aniyomi-local" target="_blank">GitHub</a>.
         </p>
       </div>
