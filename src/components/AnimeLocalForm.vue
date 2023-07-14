@@ -16,6 +16,7 @@ import type { AniyomiEntry } from '../types/aniyomi'
 const entry = reactive<AniyomiEntry>({
   title: '',
   author: '',
+  artist: '',
   description: '',
   genre: '',
   status: '0'
@@ -42,6 +43,7 @@ const saveModalOpen = ref(false)
 const detailsSchema = object({
   title: string().required(),
   author: string().required(),
+  artist: string(),
   description: string().ensure(),
   genre: array(string().required()).ensure(),
   status: string().required().matches(/^[012345]$/)
@@ -68,6 +70,7 @@ async function handleFile (event: Event) {
     Object.assign(entry, { 
       title: fileEntry.title,
       author: fileEntry.author,
+      artist: fileEntry.artist,
       description: fileEntry.description,
       genre: fileEntry.genre.join(', '),
       status: fileEntry.status
@@ -136,8 +139,23 @@ const settingsModalOpen = ref(false)
           >
           <p class="text-xs text-gray-600 mt-1.5 mb-1">
             You can use any type of separator character when the series
-            have multiple animation studios.
+            have multiple animation studios or fansubs.
           </p>
+        </div>
+      </div>
+
+      <div class="sm:flex gap-4">
+        <div class="sm:text-right sm:w-32 shrink-0 mt-2 mb-1 sm:mb-0">
+          <label for="fansub" class="font-semibold">Fansubs</label>
+        </div>
+        <div class="flex-1">
+          <input
+            v-model.trim="entry.artist"
+            type="text"
+            id="fansub"
+            class="w-full"
+            placeholder="Ex. DameDesuYo/MTBB"
+          >
         </div>
       </div>
 

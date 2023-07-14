@@ -1,6 +1,7 @@
 export interface AniyomiEntry {
   title: string;
   author: string; //Don't change this to 'studio' becuase Aniyomi needs this object called as 'author' and not 'studio'
+  artist: string;
   description: string;
   genre: string;
   status: AniyomiStatus;

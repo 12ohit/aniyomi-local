@@ -220,6 +220,7 @@ function handleSelect () {
       .map(edge => edge.node.name)
       .sort()
       .join(', '),
+    artist: "",
     description: unescapeEntities(
       selection.value.description
         ?.replaceAll('\n', '')
