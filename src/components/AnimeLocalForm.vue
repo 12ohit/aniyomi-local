@@ -139,7 +139,7 @@ const settingsModalOpen = ref(false)
           >
           <p class="text-xs text-gray-600 mt-1.5 mb-1">
             You can use any type of separator character when the series
-            have multiple animation studios.
+            have multiple animation studios or fansubs.
           </p>
         </div>
       </div>
@@ -156,10 +156,6 @@ const settingsModalOpen = ref(false)
             class="w-full"
             placeholder="Ex. DameDesuYo/MTBB"
           >
-          <p class="text-xs text-gray-600 mt-1.5 mb-1">
-            You can use any type of separator character when the series
-            have multiple Fansubs/Encoders/Whatever.
-          </p>
         </div>
       </div>
 
