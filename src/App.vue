@@ -9,7 +9,7 @@ import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
   <div class="max-w-3xl mx-auto pt-14">
     <section class="text-center flex flex-col items-center px-4">
       <figure class="w-16 h-16">
-        <img src="https://aniyomi.jmir.xyz/icons/logo.svg" alt="Aniyomi Logo">
+        <img src="https://aniyomi.org/img/logo-128px.png" alt="Aniyomi Logo">
       </figure>
       <h1 class="text-xl sm:text-3xl font-bold mt-5">
         Aniyomi Local Source JSON Generator
