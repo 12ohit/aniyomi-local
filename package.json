@@ -11,6 +11,7 @@
     "@heroicons/vue": "2.0.13",
     "@vueuse/core": "9.5.0",
     "vue": "3.2.45",
+    "vue-router": "4",
     "yup": "0.32.11"
   },
   "devDependencies": {
