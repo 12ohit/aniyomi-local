@@ -183,6 +183,11 @@
     "@vue/compiler-dom" "3.2.45"
     "@vue/shared" "3.2.45"
 
+"@vue/devtools-api@^6.5.1":
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.1.tgz#7c14346383751d9f6ad4bea0963245b30220ef83"
+  integrity sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==
+
 "@vue/reactivity-transform@3.2.45":
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.2.45.tgz#07ac83b8138550c83dfb50db43cde1e0e5e8124d"
@@ -337,9 +342,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
-  version "1.0.30001431"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001431.tgz#e7c59bd1bc518fae03a4656be442ce6c4887a795"
-  integrity sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==
+  version "1.0.30001611"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001611.tgz"
+  integrity sha512-19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==
 
 "chokidar@>=3.0.0 <4.0.0", chokidar@^3.5.3:
   version "3.5.3"
@@ -995,6 +1000,13 @@ vue-demi@*:
   version "0.13.11"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
   integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
+
+vue-router@4:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.3.2.tgz#08096c7765dacc6832f58e35f7a081a8b34116a7"
+  integrity sha512-hKQJ1vDAZ5LVkKEnHhmm1f9pMiWIBNGF5AwU67PdH7TyXCj/a4hTccuUuYCAMgJK6rO/NVYtQIEN3yL8CECa7Q==
+  dependencies:
+    "@vue/devtools-api" "^6.5.1"
 
 vue-template-compiler@^2.7.10:
   version "2.7.14"
